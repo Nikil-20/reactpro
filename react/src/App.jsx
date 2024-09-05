@@ -5,7 +5,8 @@ import StudentSearch from "./Component/StudentSearch";
 import Navbar from "./Component/Navbar";
 import Electrical from "./Component/Electrical";
 import Civil from "./Component/Civil";
-
+import About from "./Component/About";
+import Services from "./Component/Services";
 function App() {
   return (
     <Router>
@@ -13,6 +14,8 @@ function App() {
         <Navbar />
         <main className="p-4">
           <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services/>}/>
             <Route path="/" element={<StudentSearch />} />
             <Route path="/electrical" element={<Electrical />} />
             <Route path="/civil" element={<Civil />} />

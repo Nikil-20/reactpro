@@ -20,7 +20,7 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <img
-              className="h-8 w-8"
+              className="h-14 w-14"
               src="coep_logoBlack.png"
               alt="COEP Logo"
             />
@@ -34,16 +34,16 @@ function Navbar() {
               Home
             </Link>
             <Link
-              to="#about"
+              to="/About"
               className="text-gray-700 hover:bg-gray-200 hover:text-black px-3 py-2 rounded-md text-sm font-medium"
             >
               About
             </Link>
             <Link
-              to="#services"
+              to="/Services"
               className="text-gray-700 hover:bg-gray-200 hover:text-black px-3 py-2 rounded-md text-sm font-medium"
             >
-              Services
+              Campus
             </Link>
             <div className="relative">
               <button
@@ -77,6 +77,37 @@ function Navbar() {
                   >
                     Computer Engineering & IT
                   </Link>
+                  <Link
+                    to="#computer"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                  >
+                   Electronics and Telecommunication Engineering
+                  </Link>
+                  <Link
+                    to="#computer"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                  >
+                     Instrumentation and Control Engineering
+                  </Link>
+                  <Link
+                    to="#computer"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                  >
+                    Mechanical Engineering
+                  </Link>
+                  <Link
+                    to="#computer"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                  >
+                    Manufacturing Engineering
+                  </Link>
+                  <Link
+                    to="#computer"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                  >
+                     Metallurgy
+                  </Link>
+                
                   {/* Add more links as needed */}
                 </div>
               )}
