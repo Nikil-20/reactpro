@@ -4,7 +4,7 @@ import React from "react";
 function Services() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
-      <div className="bg-white rounded-lg shadow-lg max-w-4xl w-full p-6 mb-8">
+      <div className="bg-white rounded-lg shadow-lg max-w-4xl w-full p-6 mb-8 animate__animated animate__slideInDown animate__slow 2s">
         <div className="relative mb-6">
           <img
             src="https://www.coep.org.in/page_assets/190/coep.jpeg"

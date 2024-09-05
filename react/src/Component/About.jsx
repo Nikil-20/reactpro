@@ -4,7 +4,7 @@ import React from "react";
 function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
-      <div className="bg-white rounded-lg shadow-lg max-w-4xl w-full p-6 mb-8">
+      <div className="bg-white rounded-lg shadow-lg max-w-4xl w-full p-6 mb-8 animate__animated animate__slideInDown animate__slow	2s">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">
           About College of Engineering, Pune (CoEP)
         </h1>

@@ -64,7 +64,7 @@ function Civil() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center" style={{ backgroundImage: `url(college_42b626c32aa4436806a3282d3c6469b5.jpg)` }}>
-      <div className="w-full max-w-md md:max-w-lg lg:max-w-xl bg-white p-4 md:p-6 mt-5 rounded-lg shadow-md text-center">
+      <div className="w-full max-w-md md:max-w-lg lg:max-w-xl bg-white p-4 md:p-6 mt-5 rounded-lg shadow-md text-center animate__animated animate__fadeInDown animate__slow	2s">
         <div className="mb-4">
           <h1 className="text-center">
             <img src="coep_logoBlack.png" alt="COEP" className="mx-auto"/>
