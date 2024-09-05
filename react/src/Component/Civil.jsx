@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 import students from "./studentsdatacivil";
+import 'animate.css';
+
 
 function Civil() {
   const [misInput, setMisInput] = useState("");

@@ -1,5 +1,7 @@
 // src/services.jsx
 import React from "react";
+import 'animate.css';
+
 
 function Services() {
   return (
