@@ -135,13 +135,13 @@ function Navbar() {
             Home
           </Link>
           <Link
-            to="#about"
+            to="/About"
             className="text-gray-700 hover:bg-gray-200 hover:text-black block px-3 py-2 rounded-md text-base font-medium"
           >
             About
           </Link>
           <Link
-            to="#services"
+            to="/Services"
             className="text-gray-700 hover:bg-gray-200 hover:text-black block px-3 py-2 rounded-md text-base font-medium"
           >
             Services

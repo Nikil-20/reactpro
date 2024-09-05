@@ -4,8 +4,6 @@ import jsPDF from "jspdf";
 import "jspdf-autotable";
 import students from "./studentsData";
 
-
-
 function Electrical() {
   const [misInput, setMisInput] = useState("");
   const [result, setResult] = useState(null);
@@ -66,14 +64,14 @@ function Electrical() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center" style={{ backgroundImage: `url(college_42b626c32aa4436806a3282d3c6469b5.jpg)` }}>
-      <div className="w-full max-w-max bg-white p-6 mt-5 rounded-lg shadow-md text-center">
+      <div className="w-full max-w-md md:max-w-lg lg:max-w-xl bg-white p-4 md:p-6 mt-5 rounded-lg shadow-md text-center">
         <div className="mb-4">
           <h1 className="text-center">
             <img src="coep_logoBlack.png" alt="COEP" className="mx-auto"/>
           </h1>
-          <h2 className="text-xl font-semibold">COEP Technological University</h2>
+          <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">COEP Technological University</h2>
         </div>
-        <h1 className="text-2xl font-bold mb-4">Student Information Search</h1>
+        <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Electrical Student Information</h1>
         <div className="mb-4">
           <input
             type="text"
@@ -81,17 +79,17 @@ function Electrical() {
             placeholder="Enter MIS No"
             value={misInput}
             onChange={handleInputChange}
-            className="p-2 border border-gray-300 rounded w-3/4 mb-2"
+            className="p-2 border border-gray-300 rounded w-full sm:w-3/4 mb-2 text-sm md:text-base"
           />
-          {error && <p className="text-red-500">{error}</p>}
-          <button onClick={searchStudent} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
+          {error && <p className="text-red-500 text-sm md:text-base">{error}</p>}
+          <button onClick={searchStudent} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm md:text-base">
             Search
           </button>
           {showDownloadBtn && (
             <button
               id="downloadBtn"
               onClick={downloadPDF}
-              className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700 mt-2"
+              className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700 mt-2 text-sm md:text-base"
             >
               Download PDF
             </button>
@@ -104,11 +102,11 @@ function Electrical() {
               <p>{result.error}</p>
             ) : (
               <>
-                <h2 className="text-lg font-bold">NAME: {result.studentName}</h2>
+                <h2 className="text-lg md:text-xl lg:text-2xl font-bold">NAME: {result.studentName}</h2>
                 <h3 className="font-semibold">CGPA: {result.cgpa}</h3>
                 <h3 className="font-semibold">SGPA: {result.sgpa}</h3>
                 <h3 className="font-semibold">Subjects:</h3>
-                <table id="subjectsTable" className="w-full border-collapse mt-4">
+                <table id="subjectsTable" className="w-full border-collapse mt-4 text-sm md:text-base">
                   <thead>
                     <tr>
                       <th className="border p-2 bg-gray-200">Subject Code</th>
