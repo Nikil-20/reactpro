@@ -82,42 +82,42 @@ function Navbar() {
                     Civil Engineering
                   </Link>
                   <Link
-                    to="#computer"
+                    to="/Cs"
                     onClick={handleLinkClick}  
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                   >
                     Computer Engineering & IT
                   </Link>
                   <Link
-                    to="#computer"
+                    to="/Entc"
                     onClick={handleLinkClick}  
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                   >
                    Electronics and Telecommunication Engineering
                   </Link>
                   <Link
-                    to="#computer"
+                    to="/Instru"
                     onClick={handleLinkClick}  
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                   >
                      Instrumentation and Control Engineering
                   </Link>
                   <Link
-                    to="#computer"
+                    to="/Mech"
                     onClick={handleLinkClick}  
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                   >
                     Mechanical Engineering
                   </Link>
                   <Link
-                    to="#computer"
+                    to="/Manu"
                     onClick={handleLinkClick}  
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                   >
                     Manufacturing Engineering
                   </Link>
                   <Link
-                    to="#computer"
+                    to="/Meta"
                     onClick={handleLinkClick}  
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                   >
@@ -194,42 +194,42 @@ function Navbar() {
                   Civil Engineering
                 </Link>
                 <Link
-                  to="#computer"
+                  to="/Cs"
                   onClick={handleLinkClick}  
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                 >
                   Computer Engineering & IT
                 </Link>
                 <Link
-                  to="#computer"
+                  to="/Entc"
                   onClick={handleLinkClick}  
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                 >
                   Electronics and Telecommunication Engineering
                 </Link>
                 <Link
-                  to="#computer"
+                  to="/Instru"
                   onClick={handleLinkClick}  
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                 >
                   Instrumentation and Control Engineering
                 </Link>
                 <Link
-                  to="#computer"
+                  to="/Mech"
                   onClick={handleLinkClick}  
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                 >
                   Mechanical Engineering
                 </Link>
                 <Link
-                  to="#computer"
+                  to="/Manu"
                   onClick={handleLinkClick}  
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                 >
                    Manufacturing Engineering
                 </Link>
                 <Link
-                  to="#computer"
+                  to="/Meta"
                   onClick={handleLinkClick}  
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
                 >
