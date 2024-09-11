@@ -4,6 +4,7 @@ import jsPDF from "jspdf";
 import "jspdf-autotable";
 // import students from "./studentsData";            ////add data of cs file
 import 'animate.css';
+import students from "./studentsDataCS";
 
 function Cs() {
   const [misInput, setMisInput] = useState("");
